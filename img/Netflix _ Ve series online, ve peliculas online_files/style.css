@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(7, 7, 7, 0)),  url("img/netflix-fondo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 15px 30px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.boton_sesion{
+    padding: 8px 18px;
+    color:white; 
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #f71c1c;
+    transition: 0.4s;
+ 
+}
+.boton_sesion:hover{
+    background-color: #aa1c1c;
+}
+.list_idioma{
+    padding: 8px 15px;
+    color:rgb(253, 249, 249); 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #36343f73;
+
+}
+.list_idioma:hover{
+    color:rgb(5, 5, 5);
+
+}
+.list_idioma i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #f0f5f2;
+	border-bottom:4px solid #f7f8f7;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color:white;
+    text-align: center;
+}
+.text1{
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.text2{
+    font-size: 19px;
+    padding: 10px 40px;
+}
+.text3{
+    font-size: 19px;
+    padding: 20px 40px;
+}
+.boton_inicio{
+    padding: 10px 20px;
+    color:white; 
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 4px;
+    background-color: #f71c1c;
+    transition: 0.4s;
+}
+.boton_inicio:hover{
+    background-color: #aa1c1c;
+}
+.flecha{
+    font-weight:normal;
+    font-size: 24px;    
+}
+.email{
+    margin: 5px;
+    padding: 15px 20px;
+    color:white; 
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #36343f8e;
+    
+}
+.email::placeholder{
+    color:rgb(175, 174, 174);
+}
+.cabecera i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #f0f5f2;
+	border-bottom:4px solid #f7f8f7;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
